@@ -584,3 +584,166 @@ body{
     fill: #31d0aa;
 }
 /*=====================  /footer   =====================*/
+
+/*=====================  Модальне вікно   =====================*/
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* opacity - 0.5 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    display: block;
+    width: 408px;
+    margin: auto auto;
+    margin-top: 80px;
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.feedback-form:focus-within {
+    border: 1px solid #4D5AE5;
+}
+  
+.feedback-svg:focus-within {
+    color:#4D5AE5;
+}
+
+.feedback-svg-close{
+    position: relative;
+    left: 336px;
+    border: none;
+    background-color: #FCFCFC;
+}
+
+.modal-content-text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.feedback-name{
+    display: flex;
+    flex-direction:column;
+    gap: 4px;
+    margin-bottom: 8px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.167;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+.feedback-svg{
+    position: relative;
+    top: 11px;
+    left: 16px;
+}
+
+.feedback-svg-person{
+    position: relative;
+    top: 11px;
+    left: 16px;
+}
+
+.feedback-username{
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(46, 47, 66);
+    padding-left: 38px;
+    margin-top: -22px;
+}
+
+.feedback-svg-phone{
+    position: relative;
+    top: 8px;
+    left: 16px;
+}
+
+.feedback-phone{
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(46, 47, 66);
+    padding-left: 38px;
+    margin-top: -28px;
+}
+
+.feedback-svg-email{
+    position: relative;
+    top: 8px;
+    left: 16px;
+}
+
+.feedback-email{
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(46, 47, 66);
+    padding-left: 38px;
+    margin-top: -28px;
+}
+
+.feedback-comment{
+    border-radius: 4px;
+    border: 1px solid rgb(46, 47, 66);
+    padding-top: 8px;
+    padding-left: 16px;
+    margin-bottom: 12px;
+}
+
+.feedback-name-chec{
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 24px;
+    color: #8E8F99;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.167; 
+    letter-spacing: 0.04em;
+}
+
+.checkbox-link{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    color: #4D5AE5;
+}
+
+
+.feedback-form-button {
+    display: block;
+    margin: auto auto;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
+	color: #FFFFFF;
+    padding: 16px 32px;
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 169px;
+    height: 56px;
+}
+/*=====================  /Модальне вікно   =====================*/
