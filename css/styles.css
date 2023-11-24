@@ -758,6 +758,9 @@ body{
 
 .feedback-username:focus-within{
     border-color: #4D5AE5;
+}
+
+.intut-name:focus-within{
     fill: #4D5AE5;
 }
 
@@ -818,14 +821,14 @@ body{
     fill: transparent;
 }
 
-.checkbox-box:checked{
+.checkbox-svg{
+
+}
+
+.checkbox-input:checked{
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
-}
-
-.checkbox-svg{
-
 }
 
 .checkbox-link{
