@@ -825,8 +825,9 @@ body{
 
 }
 
-.checkbox-input:checked{
+input[type="checkbox"]:checked + label{
     background-color:#404bbf;
+    background-size: 16px;
     border: none;
     fill:#F4F4FD;
 }
