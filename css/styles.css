@@ -756,7 +756,7 @@ body{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feedback-username:focus-within .feedback-svg{
+.feedback-username:focus-within{
     border-color: #4D5AE5;
     fill: #4D5AE5;
 }
