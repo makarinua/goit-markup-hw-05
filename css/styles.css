@@ -590,7 +590,6 @@ body{
 
 .subscribe-text{
     margin-bottom: 16px;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
@@ -642,6 +641,12 @@ body{
     border-radius: 4px;
     border: none;
 }
+
+.subscribe-button:hover,
+.subscribe-button:focus{
+    background: #404BBF;
+}
+
 
 .subscribe-svg{
     margin-left: 16px;
@@ -714,7 +719,6 @@ body{
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
-    margin-top: 24px;
     margin-bottom: 16px;
 }
 
@@ -829,6 +833,7 @@ input[type="checkbox"]:checked + label > span{
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
+    stroke:#404bbf;
 }
 
 .checkbox-link{
@@ -859,5 +864,10 @@ input[type="checkbox"]:checked + label > span{
     height: 56px;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feedback-form-button:hover,
+.feedback-form-button:focus{
+    background: #404BBF;
 }
 /*=====================  /Модальне вікно   =====================*/
